@@ -5,5 +5,6 @@ function sum(){
     var num2 = getElementById('n2').number;
 
     var sum = num1 + num2;
+    window.document.getElementById('res') = sum;
     
 }
