@@ -21,3 +21,7 @@ header {
 #calc{
     text-align: center;
 }
+#res{
+    background-color: aliceblue;
+    width: 50px;
+}
