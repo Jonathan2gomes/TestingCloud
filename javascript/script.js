@@ -1,10 +1,15 @@
-alert('Hello World')
+// alert('Hello World')
 
 function sum(){
-    var num1 = getElementById('n1').number;
-    var num2 = getElementById('n2').number;
-
-    var sum = num1 + num2;
-    window.document.getElementById('res') = sum;
-    
+    //alert('oi')
+    var num1 = window.document.getElementById('n1');
+    var num2 = window.document.getElementById('n2');
+    var res = window.document.getElementById('res');
+    var n1 = Number(num1.value);
+    var n2 = Number(num2.value);
+     
+   var s = n1 + n2;
+   res.innerHTML = s;
+  
 }
+
