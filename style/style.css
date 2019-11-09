@@ -1,5 +1,8 @@
-#lay{
+#layer{
     width: 500px;
     height: 500px;
+    background-color: aqua;
+    border-radius: 20px;
+    box-shadow: 5 10 10;
 
 }
