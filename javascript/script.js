@@ -24,13 +24,14 @@ function sum(){
 }
 }
 function mu(){
-    alert('oi')
+    
     for (var i = 0; i<10; i++){
         var num = window.document.getElementById('nmult');
-        var resmult = window.document.getElementById('resmult');
+        var a = window.document.getElementById('resmult');
+        var nmult = Number(num.value);
 
-        var s = num * i;
-        resnmult.innerHTML = `${num} x ${i} e igual a ${s}`;
+        var s = nmult * i;
+        a.innerHTML = `${nmult} x ${i} e igual a ${s}`;
     }
 
 }
