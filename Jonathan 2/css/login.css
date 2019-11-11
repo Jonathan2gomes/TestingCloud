@@ -1,0 +1,126 @@
+body {
+    background:linear-gradient(100deg, #273240,  80% ,#98B5BE 110%);
+}
+
+
+section {
+    border: 1px solid #273240;
+    border-radius: 10px;
+   padding:15px;
+    width: 460px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 350px;
+   
+}
+
+.container  {
+    width: 500px;
+    padding-bottom: 20px;
+    
+}
+
+#button {
+    width: 463px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    background: #586980;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+#button:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+#button:hover {
+    background: #6d7f94;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#ap_email:hover {
+    box-shadow:0px 0px 10px  #7d90a5;
+}
+
+#ap_email {
+    width: 440px;
+    height: 15px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #8a9eaa;
+    color: white;
+    font-size: 15px;
+}
+
+#ap_email:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+    box-shadow:0px 0px 10px  #7d90a5;
+}
+
+
+
+#ap_senha:focus{
+    box-shadow:0px 0px 10px  #7d90a5;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+#ap_senha:hover {
+    box-shadow:0px 0px 10px  #7d90a5;
+}
+
+#ap_senha {
+    width: 440px;
+    height: 15px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    background-color: #8a9eaa;
+    color: white;
+    font-size: 15px;
+}
+
+.email {
+    padding-bottom: 5px;
+}
+
+.senha {
+    padding-bottom: 5px;
+}
+
+footer {
+    margin-top: 100px;
+    border-top: 1px solid #27324049;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cop {
+    color: white;
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 30px;
+    
+}
+
+.cop p {
+    display: inline;
+    padding-left: 20px;
+
+}
+
+.copy {
+    margin-top: 40px;
+    margin-left: 50%;
+    color: white;
+
+}
