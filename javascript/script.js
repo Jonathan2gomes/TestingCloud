@@ -9,7 +9,10 @@ function sum(){
     var n2 = Number(num2.value);
      
    var s = n1 + n2;
-   res.innerHTML = s;
+   
   
+   if ( s > 100 ){
+    res.innerHTML = "O Valor ", s, "eh maior que 100"  ;
+   }
 }
 
