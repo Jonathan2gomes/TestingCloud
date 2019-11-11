@@ -17,7 +17,7 @@ function sum(){
 
    else if ( s = 100) {
     res.InnerHTML = `O Valor  ${s} eh igual a 100`;
-} else {
+} else if ( s < 100) {
     res.innerHTML = `O Valor  ${s} eh menor que 100`;
 }
 }
