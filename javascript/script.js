@@ -15,9 +15,9 @@ function sum(){
     res.innerHTML = `O Valor  ${s} eh maior que 100`  ;
    }
 
-   else if ( s < 100) {
-    res.innerHTML = `O Valor  ${s} eh menor que 100`;
+   else if ( s = 100) {
+    res.InnerHTML = `O Valor  ${s} eh igual a 100`;
 } else {
-    res.InnerHTML = `O Valor  ${s} eh igual a100`;
+    res.innerHTML = `O Valor  ${s} eh menor que 100`;
 }
 }
