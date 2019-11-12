@@ -35,10 +35,8 @@ h1 {
     #resmult{
         background-color: white;
         width: 150px;
-        
-        
-        margin: auto;
-        margin-top: 30px;
+        margin: 10px auto;
+        margin-top: 10px;
     
  
 }
@@ -49,4 +47,10 @@ h3{
 
 #add{
     color: white;
+}
+#tab{
+    text-align: center;
+    color: white;
+    margin: 20px;
+
 }
