@@ -24,14 +24,21 @@ function sum(){
 }
 }
 function mu(){
-    
-    for (var i = 0; i<10; i++){
         var num = window.document.getElementById('nmult');
         var a = window.document.getElementById('resmult');
-        var nmult = Number(num.value);
-
+        
+        var b = window.document.getElementById('resmult2');
+        if( num.value.lenght == 0){
+            alert('Invalid');
+        } else{
+            var nmult = Number(num.value);
+    
+    for (var i = 0; i<11; i++){
+        var op = document.createElement('option');
         var s = nmult * i;
-        a.innerHTML = `${nmult} x ${i} e igual a ${s}`;
+        
+        op.text =  `${nmult} x ${i} e igual a ${s}`;
+        b.appendChild(op)
     }
-
+        }
 }
