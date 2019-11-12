@@ -40,5 +40,5 @@ function mu(){
         op.text =  `${nmult} x ${i} e igual a ${s}`;
         a.appendChild(op)
     }
-        }
+    }
 }
