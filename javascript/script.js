@@ -26,13 +26,13 @@ function sum(){
 function mu(){
         var num = window.document.getElementById('nmult');
         var a = window.document.getElementById('resmult');
-        
         var b = window.document.getElementById('resmult2');
+        
         if( num.value.lenght == 0){
             alert('Invalid');
         } else{
             var nmult = Number(num.value);
-    
+    b.innerHTML = '';
     for (var i = 0; i<11; i++){
         var op = document.createElement('option');
         var s = nmult * i;
