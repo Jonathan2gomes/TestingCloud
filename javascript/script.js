@@ -42,3 +42,12 @@ function mu(){
     }
     }
 }
+
+function test(){
+    var vetor = [];
+    for (var i = 0; i<3; i++){
+    vetor += window.prompt("Write a number", "Here");
+
+}
+window.alert(`Organized numbers: ${vetor}`);
+}
