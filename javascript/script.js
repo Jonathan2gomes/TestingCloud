@@ -44,12 +44,21 @@ function mu(){
 }
 
 function test(){
-    var vetor = [];
+    var vetor = new Array();
     var a = window.document.getElementById('ressort');
     for (var i = 0; i<3; i++){
-    vetor += window.prompt("Write a number", "Here");
+    vetor[i] = Number(window.prompt(`Write a number in position ${i}`));
 
 }
+
+    for (var l = 0; l < vetor.length; l++) {
+        for (var k = i; k > 0 && vetor[k] < vetor[k-1]; k--){
+            var aux = vetor[k-1];
+            vetor[k-1] = vetor[k];
+            vetor[k] = aux;
+        }
+    }
+
 window.alert(`Organized numbers: ${vetor}`);
 }
 
@@ -57,12 +66,25 @@ function writeee(){
     var a = window.document.getElementById('nsort');
     var res2 = window.document.getElementById('tab2');
        var num = Number(a.value)
+    var con = window.document.getElementById('cont');   
     res2.innerText += ` ${num}`;
 
-    for (var i = 0; i <10; i++){
+    var i = 0;
+    
+    var a = a+1;
+    
+    i++;
     var j = [];
     j[i] = num;
-    }
-    
+    con.innerText += ` ${a}`;
+   
 
 }
+
+function write2(){
+    var vetor = new Array();
+    for (var i = 0; i<10; i++){
+    window.document.getElementById('oi').innerText = `Digite o ${i}° numero: `
+    }
+}
+
