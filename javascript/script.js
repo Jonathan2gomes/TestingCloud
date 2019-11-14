@@ -45,13 +45,13 @@ function mu(){
 
 function test(){
     var vetor = new Array();
-    var a = window.document.getElementById('ressort');
-    for (var i = 0; i<3; i++){
-    vetor[i] = Number(window.prompt(`Write a number in position ${i}`));
+    var a = window.document.getElementById('tab2');
+    for (var j = 0; j<10; j++){
+    vetor[j] = Number(window.prompt(`Write a number in position ${j}`));
 
 }
 
-    for (var l = 0; l < vetor.length; l++) {
+    for (var i = 0; i < vetor.length; i++) {
         for (var k = i; k > 0 && vetor[k] < vetor[k-1]; k--){
             var aux = vetor[k-1];
             vetor[k-1] = vetor[k];
@@ -59,7 +59,8 @@ function test(){
         }
     }
 
-window.alert(`Organized numbers: ${vetor}`);
+// window.alert(`Organized numbers: ${vetor}`);
+a.innerHTML = `Organized numbers: ${vetor}`
 }
 
 function writeee(){
